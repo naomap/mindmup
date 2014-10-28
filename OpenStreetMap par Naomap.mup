@@ -89,15 +89,30 @@
           "ideas": {
             "1": {
               "title": "Notes",
-              "id": 8
+              "id": 8,
+              "attr": {
+                "style": {
+                  "background": "#ffff99"
+                }
+              }
             },
             "2": {
               "title": "iD",
-              "id": 9
+              "id": 9,
+              "attr": {
+                "style": {
+                  "background": "#ffff99"
+                }
+              }
             },
             "3": {
               "title": "JOSM",
-              "id": 10
+              "id": 10,
+              "attr": {
+                "style": {
+                  "background": "#ff6600"
+                }
+              }
             }
           },
           "attr": {
@@ -150,40 +165,34 @@
                 "style": {}
               }
             },
-            "2": {
-              "title": "Achavi",
-              "id": 37,
-              "attr": {
-                "attachment": {
-                  "contentType": "text/html",
-                  "content": "<a href=\"http://nrenner.github.io/achavi/\">Historique</a>"
-                },
-                "style": {}
-              }
-            },
             "3": {
               "title": "BANO",
               "id": 40,
               "ideas": {
                 "1": {
-                  "title": "FANTOIR",
+                  "title": "FANTOIR - OSM http://cadastre.openstreetmap.fr/fantoir/",
                   "id": 41,
                   "attr": {
-                    "attachment": {
-                      "contentType": "text/html",
-                      "content": "<a href=\"http://cadastre.openstreetmap.fr/fantoir/\">Correspondance FANTOIR - OSM</a>"
-                    },
                     "style": {}
                   }
                 },
                 "2": {
-                  "title": "Rendu BANO",
+                  "title": "Rendu BANO http://tile.openstreetmap.fr/~cquest/leaflet/bano.html#16/47.2308/-1.5667",
                   "id": 42,
                   "attr": {
-                    "attachment": {
-                      "contentType": "text/html",
-                      "content": "<a href=\"http://tile.openstreetmap.fr/~cquest/leaflet/bano.html#16/47.2308/-1.5667\">Rendu BANO</a>"
-                    },
+                    "style": {}
+                  }
+                }
+              }
+            },
+            "1.5": {
+              "title": "Historique",
+              "id": 43,
+              "ideas": {
+                "1": {
+                  "title": "Achavi http://nrenner.github.io/achavi/",
+                  "id": 37,
+                  "attr": {
                     "style": {}
                   }
                 }
@@ -230,5 +239,6 @@
   },
   "resources": {
     "1/b22ef6cf-9f22-b4f7-af19-d5df068b5ee8/": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMAUExURQAAADI+VjM/VzRAWDZCWTdCWjhEWzlFXDtGXTtHXjxHXj1IXz5JYD9KYD9LYUBLYUBLYkFMYkJNY0NOY0NOZEROZERPZUVQZkdRZ0hSaElUaUpUakxWa0xXbE1YbE5YbVBablBab1FbcFJccFNdcVReclVfc1Zgc1ZgdFhhdVhidVljdltjd1tkd1tkeFxleF5nel9oe2Bpe2BqfGFqfWNsfmRtf2VugGdwgWhwgmhxg2lyg2pzhGtzhWt0hWx0hm12h253iHB4iXF5inF6inJ6i3R8jHR8jXZ+jnd/j3h/j3iAj3iAkHmBkXqCkXuDknyDk3yEk32FlH6GlYCHloGIl4KJmIKKmISKmYWMmoWMm4eOnIiPnYmQnoqRn4uSn4ySoI2ToY2UoY6Voo+Vo4+Wo5CWo5GXpJGYpZOZppSap5acqJacqQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM2dFSIAAAEAdFJOU////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wBT9wclAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGnRFWHRTb2Z0d2FyZQBQYWludC5ORVQgdjMuNS4xMUfzQjcAAAdvSURBVHhe7ZvZdxVFEManE0JyWA6gAhIiCIomLhAWL+uBwCHAMQKRTYMgKsr+/7+OvXwz011dVdP3Zjy+5PeSnq6qnm/m9j6dqv6f2RKwJWBLwJaAPgEv8Hdi+grQBZx7iYTAy7XRaK3Hpz6JvzyqgDlN/spO0zJ7BZks0/jLogh4aOT738adI27AxGDWkGCQBayYt0hlPN6OmyZMrcOcYy4hkSMKmBOf/8M07pgx/QYuGWYOiQxBwD8z5i6SlA3cjWPqIZwoj415jiSBF/DQmGNIUm7gXgJSbfzGCBWBFWDvb5CkHAj3kTkAR4o1/YRkAifAvi9zH2nCTX8TlWtwJTyxpntIxzAC3P2/QJrwq79FD4/hTPjWmpjHygX4Jo404YMz9fMB7gRnOod0RybAP6RQA+edrZ95uBO+c7afcdFCBbj6Z4Qu4Lm3FfAUASnh/d3EVQMV4J124ILwsTcWsAsBhNCCcNFABHzmfdj2gpdTBH3MgKvdxhzEFUgFXPMuQhUsrAGOPQghBOMIV4FEAJ7xMC4JwVgGQghLwZi8n0RAsJvfcJmijQEZfD/2GlZcemIBnzP2jhOwFqG/xEO4dEQC2jvgmgBjIQgiwBjriwTAaBZxTYC1EAQRzsEamTsBp2Azj5BBgLUQBBHarqx7yFZA188jgwJrIX8jigCrMe3cqRXQTfOQQRirERgjTI1gNWY7MloBUT+PHMKfsBYijMmwWprxohGwF/nGzCCHAnMh7xFF2A9z11lCwDqyLZ+GnAyYC0EQ5UuYLeirIACZjiMhJwPmQhBEaduhJeQEAfFIf9nn5MBcCIIoqzA7nvmcIOA48hzSMuoM7EV8jSBKPKkM064gYAp5Dmlt0YwkRYSny0lmlT7HC0iWmhs+nwH2IhCS8RZ2z22X4wVEC21jHrgcjq/gUMACQjJ+h4Nnp8vxApAR8Lo43sOhgL8QkvELHAIuxwmI24a2zl+ERy/CssZyDx4Bt0pwAnAJ0ilbAjx6gTvDdXgAm5MLWPaeLIUtUSnhClyAzbEC4s7BIjVhxyfwUdkHZ46z8AGrXsBuXAFhOheAjwpcWdwKNWK3F4CLBnEzxfESTgrCTkjgIJwaOAHqE/RvECh12AKnFifgKdIt8BV4HXfbOT0bo/BqeWoFkHoRTdcE6GuMsL+pDvxazloBO5BuEbvChqNwzDgKB5FHcGzZYQUg2SH3Yy3LcE34HkYFLA4jOAGz8FaJZxCe3qd35L8eJ6CnFrZ0u9WzV5HVR16B6+odUhHw/g/ADSLeVVkrlCdlmyarg7YdVmtIRUjz4k0TTcob1ioyPnngPzgoPuZq1S6KI+A/OCg+5lTF9SorCBgYbhw5Uu1BKmY/IgaG68P3VLNIxUwhYmBQesJstQ+pBHVMn5QXKDxhXxX2RgknEDMo7KR6oeKXG4gZFBSdsljxM13u28YmeYCiU85Ul5BK+QhRA8LPYy5VK0gREDUgKJiwUr1CinABYYMhPOgrbj7gQdxgbEO5BHZC4vkDgQPBTDs8sgDhs8ukSFNpK0Ca4yJyIFAo5agVkO4OdEjfYCdCesqRFSA0g2FfAYrMeG0FiMbzCB4Asi/R4Ren3TYxAdEDgAIz9noB3KzQM9jE6A4KzLjiBUhNdLhXIJ75eOcFiC/I3Anxm0X+5GqNTgAzXQ9s8/GbZheKyzhujU5Asn2ZMEgtYM4cAbej7ATIv8EgtQBFMTirF3AeGTn6ObAifkBROaed2QtQRPbt1/SDghhsG+gX0H5em5Q5FMTg7UEAs25uEL6jlvIMxTD86B2CgHoGmTnqWbx+kk8RKcEBAtJt9AThYFIZchNsjjFAgFILNtUUUQQHPBoBt5DNULT/xaMcemhOvTUCNK369q+CMBX3wKUTEM7Y8MBlbBDO0a79WgHyBuzEP4I4yMUfJToBmt6JNu7uI5gDLpZIwGUYOeAyFgjluAgXSyRAi1A/o/AofXD8PLGANzBz8MfLFO4ikCMe4WIB9Uk4cMClGIRxJGN8IkD7NjrmQkk5/JqeU0oFRGdpMvz0oZTTCGIgAzwRwG6lgajq9nERIRzksxYR4E/fSvgZTAnySsOYJ/BpoAJqZvu+QTjpmaO0wKxLywRoI0jh/qUyBl6HS0cuoB7BmSGPZxCXwuy4ygioD8GdQTrhEqGcfeWaMiegPoYABngowJGB/SDJClBqonY4wMPuvntuwSOFF6BMT3rmBvKsIjvUHRAEKPN5tU+We2Cp9kgClMak7OJegEuG/N5kAfRsSQf/Y1rEqbWyzFcE1K+koUk4LilVnCntVIMmQK5S7Hkz6dSpeK7Lowuo6wWUQoA1ASbCvPD/Fg19AuqrKIgAawQMhN4P+70CuGMPDhhbkJ2yBKNCgQC7xmVOzpCxOTuJYlmFTaVIQF2v5x9Yk5l6PgOYLlzMFAqo6/fZwZVIQXb/k8V7S8UCLBukSbSnXcj954V+gmUcAZYXaY0MmbgIHBfPpPKMKcCxsdTtKLlrJI2ZWRrz5o4JBAQ2RssLh+esAjN3eGF5NMGtHXX9L10aLfWdWU8wAAAAAElFTkSuQmCC"
-  }
+  },
+  "links": []
 }
