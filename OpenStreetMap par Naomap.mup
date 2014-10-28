@@ -149,6 +149,45 @@
               "attr": {
                 "style": {}
               }
+            },
+            "2": {
+              "title": "Achavi",
+              "id": 37,
+              "attr": {
+                "attachment": {
+                  "contentType": "text/html",
+                  "content": "<a href=\"http://nrenner.github.io/achavi/\">Historique</a>"
+                },
+                "style": {}
+              }
+            },
+            "3": {
+              "title": "BANO",
+              "id": 40,
+              "ideas": {
+                "1": {
+                  "title": "FANTOIR",
+                  "id": 41,
+                  "attr": {
+                    "attachment": {
+                      "contentType": "text/html",
+                      "content": "<a href=\"http://cadastre.openstreetmap.fr/fantoir/\">Correspondance FANTOIR - OSM</a>"
+                    },
+                    "style": {}
+                  }
+                },
+                "2": {
+                  "title": "Rendu BANO",
+                  "id": 42,
+                  "attr": {
+                    "attachment": {
+                      "contentType": "text/html",
+                      "content": "<a href=\"http://tile.openstreetmap.fr/~cquest/leaflet/bano.html#16/47.2308/-1.5667\">Rendu BANO</a>"
+                    },
+                    "style": {}
+                  }
+                }
+              }
             }
           }
         },
