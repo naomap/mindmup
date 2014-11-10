@@ -31,13 +31,13 @@
           }
         },
         "2": {
-          "title": "Extraire les données",
+          "title": "Extraire les donnÃ©es",
           "id": 18
         }
       }
     },
     "2": {
-      "title": "Communauté",
+      "title": "CommunautÃ©",
       "id": 5,
       "attr": {
         "position": [
@@ -49,7 +49,7 @@
       },
       "ideas": {
         "1": {
-          "title": "Evènements",
+          "title": "EvÃ¨nements",
           "id": 21,
           "ideas": {
             "1": {
@@ -74,9 +74,49 @@
           "id": 27
         },
         "4": {
-          "title": "HOT",
-          "id": 28
+          "title": "HOT http://hot.openstreetmap.org/",
+          "id": 28,
+          "ideas": {
+            "1": {
+              "title": "Missing Maps http://www.missingmaps.org/",
+              "id": 45,
+              "attr": {
+                "style": {}
+              }
+            },
+            "2": {
+              "title": "Tasking Manager http://tasks.hotosm.org",
+              "id": 46
+            }
+          }
         }
+      }
+    },
+    "12": {
+      "title": "Données",
+      "id": 7,
+      "ideas": {
+        "1": {
+          "title": "noeuds / nodes",
+          "id": 12,
+          "ideas": {}
+        },
+        "2": {
+          "title": "chemins / ways",
+          "id": 14
+        },
+        "3": {
+          "title": "relations",
+          "id": 16
+        }
+      },
+      "attr": {
+        "style": {},
+        "position": [
+          113,
+          187,
+          3
+        ]
       }
     },
     "-1": {
@@ -122,28 +162,6 @@
               -181,
               1
             ]
-          }
-        },
-        "2": {
-          "title": "Donn�es",
-          "id": 7,
-          "ideas": {
-            "1": {
-              "title": "noeuds / nodes",
-              "id": 12,
-              "ideas": {}
-            },
-            "2": {
-              "title": "chemins / ways",
-              "id": 14
-            },
-            "3": {
-              "title": "relations",
-              "id": 16
-            }
-          },
-          "attr": {
-            "style": {}
           }
         },
         "1.5": {
