@@ -91,8 +91,8 @@
             },
             "style": {},
             "position": [
-              104,
-              -100,
+              46,
+              -102,
               1
             ]
           }
@@ -132,11 +132,25 @@
       "id": 6,
       "attr": {
         "position": [
-          284,
-          -195.5,
+          260,
+          -238.5,
           19
         ],
         "style": {}
+      },
+      "ideas": {
+        "1": {
+          "title": " Google Fonts http://www.google.com/fonts",
+          "id": 31,
+          "attr": {
+            "position": [
+              140,
+              -8,
+              1
+            ],
+            "style": {}
+          }
+        }
       }
     },
     "-11": {
