@@ -128,13 +128,13 @@
       }
     },
     "-0.5": {
-      "title": "BeTheme http://themes.muffingroup.com/betheme/#choose_theme",
+      "title": "BeTheme http://themes.muffingroup.com/betheme/documentation/",
       "id": 6,
       "attr": {
         "position": [
           284,
-          -197.5,
-          17
+          -195.5,
+          19
         ],
         "style": {}
       }
