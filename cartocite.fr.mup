@@ -52,6 +52,10 @@
           "title": "Pixabay http://pixabay.com/",
           "id": 28
         },
+        "5": {
+          "title": "UX Repo http://uxrepo.com/icon-sets/",
+          "id": 38
+        },
         "2.5": {
           "title": "Fotolia http://fr.fotolia.com/",
           "id": 17,
@@ -87,7 +91,7 @@
           "attr": {
             "attachment": {
               "contentType": "text/html",
-              "content": "Place de marché de thèmes"
+              "content": "Place de marchÃ© de thÃ¨mes"
             },
             "style": {},
             "position": [
@@ -152,7 +156,7 @@
           }
         },
         "2": {
-          "title": "D�mos http://themes.muffingroup.com/betheme/",
+          "title": "Démos http://themes.muffingroup.com/betheme/",
           "id": 33,
           "attr": {
             "position": [
@@ -171,6 +175,19 @@
               173,
               36,
               3
+            ],
+            "style": {}
+          },
+          "ideas": {}
+        },
+        "4": {
+          "title": "Shortcodes http://themes.muffingroup.com/betheme/shortcodes/",
+          "id": 36,
+          "attr": {
+            "position": [
+              184,
+              81.5,
+              4
             ],
             "style": {}
           }
