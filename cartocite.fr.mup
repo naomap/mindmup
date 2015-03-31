@@ -54,12 +54,12 @@
           "attr": {
             "attachment": {
               "contentType": "text/html",
-              "content": "Place de marchÃ© de thÃ¨mes"
+              "content": "Place de marchÃƒÂ© de thÃƒÂ¨mes"
             },
             "style": {},
             "position": [
-              46,
-              -102,
+              103,
+              -103.5,
               1
             ]
           },
@@ -125,7 +125,7 @@
           }
         },
         "2": {
-          "title": "Démos http://themes.muffingroup.com/betheme/",
+          "title": "DÃ©mos http://themes.muffingroup.com/betheme/",
           "id": 33,
           "attr": {
             "position": [
@@ -176,7 +176,7 @@
       }
     },
     "-16": {
-      "title": "R�f�rencement",
+      "title": "Référencement",
       "id": 43,
       "ideas": {
         "1": {
